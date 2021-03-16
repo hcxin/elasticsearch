@@ -17,9 +17,13 @@ https://mirrors.huaweicloud.com/elasticsearch/6.7.0/elasticsearch-6.7.0.zip
 
 3.  修改elasticsearch-6.7.0\config\elasticsearch.yml配置项
 network.host: 0.0.0.0
+
 http.port: 9200
+
 http.cors.enabled: true
+
 http.cors.allow-origin: "*"
+
 action.auto_create_index: true
 
 4.  下载并安装ik分词器
