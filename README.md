@@ -16,7 +16,7 @@ https://mirrors.huaweicloud.com/elasticsearch/6.7.0/elasticsearch-6.7.0.zip
 -Xmx1g
 
 3.  修改elasticsearch-6.7.0\config\elasticsearch.yml配置项
-4.  
+
 network.host: 0.0.0.0
 
 http.port: 9200
